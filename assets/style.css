@@ -39,27 +39,25 @@ MAIN TWO-COLUMN LAYOUT
 --------------------------------------------------------- */
 
 .portfolio-layout {
-display: grid;
-grid-template-columns: 42% 58%;
-min-height: 100vh;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
 }
-
-/* ---------------------------------------------------------
-LEFT SIDEBAR
---------------------------------------------------------- */
 
 .sidebar {
-height: 100vh;
-position: sticky;
-top: 0;
+    width: 42%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
 }
 
-.sidebar-inner {
-height: 100vh;
-padding: 80px 60px;
-display: flex;
-flex-direction: column;
+.content {
+    width: 58%;
+    height: 100vh;
+    overflow-y: auto;
 }
+ 
 
 /* ---------------------------------------------------------
 INTRO
