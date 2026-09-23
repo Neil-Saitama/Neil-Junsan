@@ -52,7 +52,7 @@ LEFT SIDEBAR
 
 .sidebar-inner {
 height: 100vh;
-padding: 80px 60px;
+padding: 50px 60px;
 display: flex;
 flex-direction: column;
 }
@@ -107,13 +107,19 @@ line-height: 1.7;
 /* =========================================================
 NAVIGATION
 ========================================================= */
-
+.right_pic { 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden; 
+    margin-bottom:10px;
+}
 .portfolio-nav {
 display: flex;
 flex-direction: column;
-gap: 18px;
-
-margin-top: 65px;
+gap: 18px; 
+margin-top: 25px;
 }
 
 .nav-link {
