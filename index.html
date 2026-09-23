@@ -1,66 +1,433 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A clean, modern static website template.">
-  <title>Northstar Studio | Home</title>
+  <meta name="description" content="Neil Junsan — Front-End Web Developer, UI/UX Designer, and HubSpot Builder.">
+  <title>Neil Junsan | Front-End Web Developer</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-<header class="site-header">
-  <a class="logo" href="index.html">Ephraim Neil Junsan<span>.</span></a>
-  <button class="menu-toggle" aria-label="Open menu">☰</button>
-  <nav class="nav">
-    <a class="active" href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
 
-<main>
-  <section class="hero">
-    <div class="hero-content">
-      <p class="eyebrow">FRONT-END DEVELOPER • UI/UX DESIGNER • HUBSPOT BUILDER</p>
-      <h1>I build clean, modern web experiences.</span></h1>
-      <p class="lead">Hi there! I'm **Neil**, and I enjoy turning ideas into clean, responsive websites. I'm a **Front-End Web Developer, UI/UX Designer, and HubSpot Builder** with 6+ years of experience creating websites, landing pages, and digital experiences.
+  <div class="portfolio-layout">
 
-I enjoy working at the intersection of **design and development**, where thoughtful user experiences meet clean, well-structured code. I have a sharp eye for layout, spacing, typography, responsiveness, and the small details that make a website feel polished and professional.
+```
+<!-- LEFT SIDEBAR -->
+<aside class="sidebar">
 
-Over the years, I've worked on **50+ websites and landing pages**, using technologies and platforms including **HTML, CSS, JavaScript, HubSpot CMS, WordPress, and Photoshop**. I've particularly enjoyed transforming designs and ideas into responsive, functional websites that work beautifully across desktop, tablet, and mobile.
+  <div class="sidebar-inner">
 
-My experience also includes building and customizing **HubSpot pages and landing pages**, supporting WordPress websites, creating responsive front-end interfaces, and helping businesses bring their online presence to life.
+    <div class="intro">
 
-When I'm not working on websites, I enjoy exploring new places, discovering new ideas, and learning new tools and technologies that can make my work better.
-</p>
-      <div class="buttons">
-        <a class="btn primary" href="gallery.html">View My Work</a>
-        <a class="btn secondary" href="contact.html">Let's Work Together</a>
+      <a class="logo" href="#home">
+        Neil Junsan<span>.</span>
+      </a>
+
+      <h1>Front-End Web Developer</h1>
+
+      <p class="tagline">
+        I build clean, responsive, and user-focused web experiences.
+      </p>
+
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="portfolio-nav" aria-label="Main navigation">
+      <a href="#about" class="nav-link active">
+        <span class="nav-line"></span>
+        <span>ABOUT</span>
+      </a>
+
+      <a href="#experience" class="nav-link">
+        <span class="nav-line"></span>
+        <span>EXPERIENCE</span>
+      </a>
+
+      <a href="#projects" class="nav-link">
+        <span class="nav-line"></span>
+        <span>PROJECTS</span>
+      </a>
+
+      <a href="#skills" class="nav-link">
+        <span class="nav-line"></span>
+        <span>SKILLS</span>
+      </a>
+
+      <a href="#contact" class="nav-link">
+        <span class="nav-line"></span>
+        <span>CONTACT</span>
+      </a>
+    </nav>
+
+    <!-- SOCIAL LINKS -->
+    <div class="social-links">
+
+      <a href="https://github.com/Neil-Saitama"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="GitHub">
+        GitHub
+      </a>
+
+      <a href="#"
+         aria-label="LinkedIn">
+        LinkedIn
+      </a>
+
+      <a href="mailto:your-email@example.com"
+         aria-label="Email">
+        Email
+      </a>
+
+    </div>
+
+  </div>
+
+</aside>
+
+
+<!-- RIGHT SCROLLABLE CONTENT -->
+<main class="content">
+
+
+  <!-- HOME -->
+  <section id="home" class="content-section home-section">
+
+    <div class="mobile-intro">
+
+      <p class="eyebrow">
+        FRONT-END DEVELOPER • UI/UX • HUBSPOT
+      </p>
+
+      <h1>
+        Neil Junsan
+      </h1>
+
+      <h2>
+        I build clean, responsive web experiences.
+      </h2>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="content-section">
+
+    <p class="eyebrow">ABOUT</p>
+
+    <h2>
+      A little bit about me.
+    </h2>
+
+    <div class="about-content">
+
+      <p>
+        Hi there! I'm <strong>Neil</strong>, and I enjoy turning ideas and designs into clean, responsive websites. I'm a <strong>Front-End Web Developer, UI/UX Designer, and HubSpot Builder</strong> with 6+ years of experience creating websites, landing pages, and digital experiences.
+      </p>
+
+      <p>
+        I enjoy working at the intersection of <strong>design and development</strong>, where thoughtful user experiences meet clean, well-structured code. I pay close attention to layout, spacing, typography, responsiveness, and the small details that help a website feel polished and professional.
+      </p>
+
+      <p>
+        Throughout my career, I've worked on <strong>50+ websites and landing pages</strong>, using technologies and platforms including HTML, CSS, JavaScript, HubSpot CMS, WordPress, and Photoshop.
+      </p>
+
+      <p>
+        My experience includes building and customizing <strong>HubSpot pages and landing pages</strong>, developing responsive front-end interfaces, supporting WordPress websites, translating designs into functional web pages, and helping businesses maintain and improve their online presence.
+      </p>
+
+      <p>
+        I particularly enjoy taking a design or concept and turning it into a website that looks great and works smoothly across desktop, tablet, and mobile devices.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="content-section">
+
+    <p class="eyebrow">EXPERIENCE</p>
+
+    <h2>
+      Where I've worked.
+    </h2>
+
+
+    <article class="experience-item">
+
+      <div class="experience-date">
+        2024 — 2026
       </div>
-    </div>
-    <div class="hero-art" aria-label="Decorative abstract artwork">
-      <img class="mypic" src="assets/images/511155625_24175515755412277_2492406543370372997_n.jpg">
-    </div>
+
+      <div class="experience-details">
+
+        <h3>
+          HubSpot Expert / Front-End Web Developer
+        </h3>
+
+        <h4>
+          Panzura
+        </h4>
+
+        <p>
+          Worked on HubSpot-based websites, landing pages, CMS development, front-end implementation, and website support.
+        </p>
+
+        <ul>
+          <li>Built and customized responsive HubSpot pages and landing pages.</li>
+          <li>Developed front-end interfaces using HTML, CSS, JavaScript, and HubL.</li>
+          <li>Worked with HubSpot CMS and HubDB.</li>
+          <li>Supported website updates, integrations, and front-end improvements.</li>
+          <li>Focused on responsive design and user-friendly digital experiences.</li>
+        </ul>
+
+        <div class="tags">
+          <span>HubSpot CMS</span>
+          <span>HubL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>HubDB</span>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="experience-item">
+
+      <div class="experience-date">
+        Previous
+      </div>
+
+      <div class="experience-details">
+
+        <h3>
+          Front-End Developer & Designer
+        </h3>
+
+        <h4>
+          WebriQ
+        </h4>
+
+        <p>
+          Worked on website development and design, creating responsive websites and translating design concepts into functional web experiences.
+        </p>
+
+        <ul>
+          <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
+          <li>Converted design concepts into web-ready interfaces.</li>
+          <li>Worked with WordPress and website content updates.</li>
+          <li>Created and maintained websites for different business needs.</li>
+        </ul>
+
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>WordPress</span>
+          <span>UI/UX</span>
+        </div>
+
+      </div>
+
+    </article>
+
   </section>
 
-  <section class="section">
-    <p class="eyebrow">WHAT WE DO</p>
-    <h2>A simple foundation for your next project.</h2>
-    <div class="cards">
-      <article class="card"><div class="icon">✦</div><h3>Clean Design</h3><p>Modern layouts with readable typography and plenty of breathing room.</p></article>
-      <article class="card"><div class="icon">◈</div><h3>Responsive</h3><p>Designed to look great on phones, tablets, laptops, and large screens.</p></article>
-      <article class="card"><div class="icon">↗</div><h3>Fast & Simple</h3><p>No framework, no build process, and no complicated dependencies.</p></article>
-    </div>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="content-section">
+
+    <p class="eyebrow">PROJECTS</p>
+
+    <h2>
+      Some things I've built.
+    </h2>
+
+
+    <article class="project-item">
+
+      <div class="project-content">
+
+        <h3>
+          HubSpot Landing Pages
+        </h3>
+
+        <p>
+          Responsive landing pages and custom HubSpot experiences built with HTML, CSS, HubL, and HubSpot CMS.
+        </p>
+
+        <div class="tags">
+          <span>HubSpot CMS</span>
+          <span>HubL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="project-item">
+
+      <div class="project-content">
+
+        <h3>
+          Corporate Websites
+        </h3>
+
+        <p>
+          Responsive corporate websites focused on clean layouts, usability, consistent branding, and mobile-friendly experiences.
+        </p>
+
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>WordPress</span>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="project-item">
+
+      <div class="project-content">
+
+        <h3>
+          Static Websites
+        </h3>
+
+        <p>
+          Lightweight and responsive websites designed for fast performance and easy deployment using GitHub and Netlify.
+        </p>
+
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>GitHub</span>
+          <span>Netlify</span>
+        </div>
+
+      </div>
+
+    </article>
+
   </section>
 
-  <section class="cta">
-    <div><p class="eyebrow">READY TO START?</p><h2>Let's create something memorable.</h2></div>
-    <a class="btn light" href="contact.html">Get in Touch →</a>
+
+  <!-- SKILLS -->
+  <section id="skills" class="content-section">
+
+    <p class="eyebrow">SKILLS</p>
+
+    <h2>
+      What I work with.
+    </h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-group">
+
+        <h3>Front-End</h3>
+
+        <p>
+          HTML · CSS · JavaScript · Responsive Design
+        </p>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>CMS & Platforms</h3>
+
+        <p>
+          HubSpot CMS · HubL · HubDB · WordPress
+        </p>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>Design</h3>
+
+        <p>
+          UI/UX · Photoshop · Web Design · Responsive Layouts
+        </p>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>Tools</h3>
+
+        <p>
+          GitHub · Git · Netlify · VS Code
+        </p>
+
+      </div>
+
+    </div>
+
   </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="content-section contact-section">
+
+    <p class="eyebrow">CONTACT</p>
+
+    <h2>
+      Let's build something together.
+    </h2>
+
+    <p>
+      I'm always open to discussing new projects, freelance opportunities, and web development roles.
+    </p>
+
+    <a class="contact-button" href="mailto:your-email@example.com">
+      Get in touch →
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>
+      Designed & built by Neil Junsan.
+    </p>
+
+    <p>
+      © 2026 Neil Junsan
+    </p>
+
+  </footer>
+
+
 </main>
+```
 
-<footer class="footer"><p>© 2026 Northstar Studio. Built as a static website.</p><div><a href="about.html">About</a><a href="contact.html">Contact</a></div></footer>
-<script src="assets/script.js"></script>
+  </div>
+
+  <script src="assets/script.js"></script>
+
 </body>
 </html>
